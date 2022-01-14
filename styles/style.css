@@ -170,3 +170,70 @@ hr {
     text-decoration: none;
     color: var(--primary-color);
 }
+
+/* ------------------------------
+ ------- Latest Courses ---------
+-------------------------------- */
+.courses {
+    display: grid;
+    grid-template: repeat(3, 1fr);
+    display: flex;
+}
+
+.course {
+    margin-right: 24px;
+    padding: 13px;
+    width: 252px;
+    height: 270px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.25);
+
+}
+
+.course img {
+    width: 224px;
+    height: 104px;
+}
+
+.course a {
+    text-decoration: none;
+    color: var(---third-color);
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.star-ratings {
+    color: gold;
+}
+
+.star-ratings span {
+    color: var(--fifth-color);
+}
+
+.course-duration {
+    color: var(---third-color);
+    background-color: #FFE4E8;
+    padding: 4px;
+    border-radius: 15px;
+}
+
+/* .footer-section {
+    display: flex;
+    justify-content: center;
+} */
+
+.footer-container {
+    padding: 30px;
+    width: 870px;
+    border-radius: 10px;
+    margin-top: 21px;
+    background-color: var(--primary-color)
+}
+
+.footer-container p {
+    text-align: center;
+    color: var(--fourth-color);
+}
